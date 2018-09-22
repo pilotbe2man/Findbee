@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1998566AEF35ECBDF11CB862 /* Pods_FindbeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A572CBB7BABCB8961B3F85 /* Pods_FindbeeUITests.framework */; };
+		79334F0B49F56C5E677E1082 /* Pods_Findbee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E7DE8CB5935CEEA4487831 /* Pods_Findbee.framework */; };
+		D0047D2A205C817C005E9AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D29205C817C005E9AEF /* AppDelegate.swift */; };
+		D0047D2C205C817C005E9AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D2B205C817C005E9AEF /* ViewController.swift */; };
+		D0047D2F205C817C005E9AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0047D2D205C817C005E9AEF /* Main.storyboard */; };
+		D0047D32205C817C005E9AEF /* Findbee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0047D30205C817C005E9AEF /* Findbee.xcdatamodeld */; };
+		D0047D34205C817C005E9AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0047D33205C817C005E9AEF /* Assets.xcassets */; };
+		D0047D37205C817C005E9AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0047D35205C817C005E9AEF /* LaunchScreen.storyboard */; };
+		D0047D42205C817C005E9AEF /* FindbeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D41205C817C005E9AEF /* FindbeeUITests.swift */; };
+		D0047D50205CB743005E9AEF /* TutorialStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D4F205CB743005E9AEF /* TutorialStartVC.swift */; };
+		D0047D52205CB7A4005E9AEF /* TutorialLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D51205CB7A4005E9AEF /* TutorialLocationVC.swift */; };
+		D0047D56205CBCFF005E9AEF /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D54205CBCFF005E9AEF /* Montserrat-Bold.ttf */; };
+		D0047D57205CBCFF005E9AEF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D55205CBCFF005E9AEF /* Montserrat-Regular.ttf */; };
+		D0047D59205CBDF7005E9AEF /* round+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0047D58205CBDF7005E9AEF /* round+UIView.swift */; };
+		D0047D62205CBFC1005E9AEF /* FaricyNew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5A205CBFC1005E9AEF /* FaricyNew-Bold.ttf */; };
+		D0047D63205CBFC1005E9AEF /* FaricyNew-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5B205CBFC1005E9AEF /* FaricyNew-BoldItalic.ttf */; };
+		D0047D64205CBFC1005E9AEF /* FaricyNew-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5C205CBFC1005E9AEF /* FaricyNew-Italic.ttf */; };
+		D0047D65205CBFC1005E9AEF /* FaricyNew-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5D205CBFC1005E9AEF /* FaricyNew-Light.ttf */; };
+		D0047D66205CBFC1005E9AEF /* FaricyNew-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5E205CBFC1005E9AEF /* FaricyNew-LightItalic.ttf */; };
+		D0047D67205CBFC1005E9AEF /* FaricyNew-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D5F205CBFC1005E9AEF /* FaricyNew-Medium.ttf */; };
+		D0047D68205CBFC1005E9AEF /* FaricyNew-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D60205CBFC1005E9AEF /* FaricyNew-MediumItalic.ttf */; };
+		D0047D69205CBFC1005E9AEF /* FaricyNew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0047D61205CBFC1005E9AEF /* FaricyNew-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0047D3E205C817C005E9AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0047D1E205C817B005E9AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0047D25205C817B005E9AEF;
+			remoteInfo = Findbee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54E7DE8CB5935CEEA4487831 /* Pods_Findbee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Findbee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9AC66E1702A86FF1D273AE /* Pods-FindbeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindbeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindbeeUITests/Pods-FindbeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84394AD8A5433609342B8C96 /* Pods-Findbee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findbee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Findbee/Pods-Findbee.release.xcconfig"; sourceTree = "<group>"; };
+		A803784D214215ABB1D8785F /* Pods-FindbeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindbeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindbeeUITests/Pods-FindbeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C602828FED1BFC0DC82DBA0C /* Pods-Findbee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findbee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Findbee/Pods-Findbee.debug.xcconfig"; sourceTree = "<group>"; };
+		D0047D26205C817C005E9AEF /* Findbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0047D29205C817C005E9AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0047D2B205C817C005E9AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0047D2E205C817C005E9AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0047D31205C817C005E9AEF /* Findbee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Findbee.xcdatamodel; sourceTree = "<group>"; };
+		D0047D33205C817C005E9AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0047D36205C817C005E9AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0047D38205C817C005E9AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0047D3D205C817C005E9AEF /* FindbeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindbeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0047D41205C817C005E9AEF /* FindbeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindbeeUITests.swift; sourceTree = "<group>"; };
+		D0047D43205C817C005E9AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0047D4F205CB743005E9AEF /* TutorialStartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialStartVC.swift; sourceTree = "<group>"; };
+		D0047D51205CB7A4005E9AEF /* TutorialLocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialLocationVC.swift; sourceTree = "<group>"; };
+		D0047D54205CBCFF005E9AEF /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D0047D55205CBCFF005E9AEF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D0047D58205CBDF7005E9AEF /* round+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "round+UIView.swift"; sourceTree = "<group>"; };
+		D0047D5A205CBFC1005E9AEF /* FaricyNew-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-Bold.ttf"; sourceTree = "<group>"; };
+		D0047D5B205CBFC1005E9AEF /* FaricyNew-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D0047D5C205CBFC1005E9AEF /* FaricyNew-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-Italic.ttf"; sourceTree = "<group>"; };
+		D0047D5D205CBFC1005E9AEF /* FaricyNew-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-Light.ttf"; sourceTree = "<group>"; };
+		D0047D5E205CBFC1005E9AEF /* FaricyNew-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-LightItalic.ttf"; sourceTree = "<group>"; };
+		D0047D5F205CBFC1005E9AEF /* FaricyNew-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-Medium.ttf"; sourceTree = "<group>"; };
+		D0047D60205CBFC1005E9AEF /* FaricyNew-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D0047D61205CBFC1005E9AEF /* FaricyNew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FaricyNew-Regular.ttf"; sourceTree = "<group>"; };
+		D7A572CBB7BABCB8961B3F85 /* Pods_FindbeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindbeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0047D23205C817B005E9AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79334F0B49F56C5E677E1082 /* Pods_Findbee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0047D3A205C817C005E9AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998566AEF35ECBDF11CB862 /* Pods_FindbeeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAA3D7377A30CAF5BA584A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54E7DE8CB5935CEEA4487831 /* Pods_Findbee.framework */,
+				D7A572CBB7BABCB8961B3F85 /* Pods_FindbeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D44859A3D9D959E99F141E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C602828FED1BFC0DC82DBA0C /* Pods-Findbee.debug.xcconfig */,
+				84394AD8A5433609342B8C96 /* Pods-Findbee.release.xcconfig */,
+				A803784D214215ABB1D8785F /* Pods-FindbeeUITests.debug.xcconfig */,
+				6E9AC66E1702A86FF1D273AE /* Pods-FindbeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0047D1D205C817B005E9AEF = {
+			isa = PBXGroup;
+			children = (
+				D0047D28205C817C005E9AEF /* Findbee */,
+				D0047D40205C817C005E9AEF /* FindbeeUITests */,
+				D0047D27205C817C005E9AEF /* Products */,
+				A2D44859A3D9D959E99F141E /* Pods */,
+				0CAA3D7377A30CAF5BA584A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0047D27205C817C005E9AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D26205C817C005E9AEF /* Findbee.app */,
+				D0047D3D205C817C005E9AEF /* FindbeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0047D28205C817C005E9AEF /* Findbee */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D29205C817C005E9AEF /* AppDelegate.swift */,
+				D0047D2B205C817C005E9AEF /* ViewController.swift */,
+				D0047D4E205C824F005E9AEF /* TableCells */,
+				D0047D4D205C8214005E9AEF /* Libs */,
+				D0047D4C205C8206005E9AEF /* Controllers */,
+				D0047D2D205C817C005E9AEF /* Main.storyboard */,
+				D0047D33205C817C005E9AEF /* Assets.xcassets */,
+				D0047D35205C817C005E9AEF /* LaunchScreen.storyboard */,
+				D0047D38205C817C005E9AEF /* Info.plist */,
+				D0047D53205CBCFF005E9AEF /* fonts */,
+				D0047D30205C817C005E9AEF /* Findbee.xcdatamodeld */,
+			);
+			path = Findbee;
+			sourceTree = "<group>";
+		};
+		D0047D40205C817C005E9AEF /* FindbeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D41205C817C005E9AEF /* FindbeeUITests.swift */,
+				D0047D43205C817C005E9AEF /* Info.plist */,
+			);
+			path = FindbeeUITests;
+			sourceTree = "<group>";
+		};
+		D0047D4C205C8206005E9AEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D4F205CB743005E9AEF /* TutorialStartVC.swift */,
+				D0047D51205CB7A4005E9AEF /* TutorialLocationVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D0047D4D205C8214005E9AEF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D58205CBDF7005E9AEF /* round+UIView.swift */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		D0047D4E205C824F005E9AEF /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		D0047D53205CBCFF005E9AEF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0047D5A205CBFC1005E9AEF /* FaricyNew-Bold.ttf */,
+				D0047D5B205CBFC1005E9AEF /* FaricyNew-BoldItalic.ttf */,
+				D0047D5C205CBFC1005E9AEF /* FaricyNew-Italic.ttf */,
+				D0047D5D205CBFC1005E9AEF /* FaricyNew-Light.ttf */,
+				D0047D5E205CBFC1005E9AEF /* FaricyNew-LightItalic.ttf */,
+				D0047D5F205CBFC1005E9AEF /* FaricyNew-Medium.ttf */,
+				D0047D60205CBFC1005E9AEF /* FaricyNew-MediumItalic.ttf */,
+				D0047D61205CBFC1005E9AEF /* FaricyNew-Regular.ttf */,
+				D0047D54205CBCFF005E9AEF /* Montserrat-Bold.ttf */,
+				D0047D55205CBCFF005E9AEF /* Montserrat-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0047D25205C817B005E9AEF /* Findbee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0047D46205C817C005E9AEF /* Build configuration list for PBXNativeTarget "Findbee" */;
+			buildPhases = (
+				106CB82F6770E18D01E24364 /* [CP] Check Pods Manifest.lock */,
+				D0047D22205C817B005E9AEF /* Sources */,
+				D0047D23205C817B005E9AEF /* Frameworks */,
+				D0047D24205C817B005E9AEF /* Resources */,
+				C134FE48C851C18D82E0057E /* [CP] Embed Pods Frameworks */,
+				39F1D3BBDA3C642F11935519 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Findbee;
+			productName = Findbee;
+			productReference = D0047D26205C817C005E9AEF /* Findbee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0047D3C205C817C005E9AEF /* FindbeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0047D49205C817C005E9AEF /* Build configuration list for PBXNativeTarget "FindbeeUITests" */;
+			buildPhases = (
+				9DDA1CE891FA1BDF01449492 /* [CP] Check Pods Manifest.lock */,
+				D0047D39205C817C005E9AEF /* Sources */,
+				D0047D3A205C817C005E9AEF /* Frameworks */,
+				D0047D3B205C817C005E9AEF /* Resources */,
+				164416F0F3F340FD4E9DBF7A /* [CP] Embed Pods Frameworks */,
+				D324BA5FFE64DA5494F004AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0047D3F205C817C005E9AEF /* PBXTargetDependency */,
+			);
+			name = FindbeeUITests;
+			productName = FindbeeUITests;
+			productReference = D0047D3D205C817C005E9AEF /* FindbeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0047D1E205C817B005E9AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hakan;
+				TargetAttributes = {
+					D0047D25205C817B005E9AEF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D0047D3C205C817C005E9AEF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0047D25205C817B005E9AEF;
+					};
+				};
+			};
+			buildConfigurationList = D0047D21205C817B005E9AEF /* Build configuration list for PBXProject "Findbee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0047D1D205C817B005E9AEF;
+			productRefGroup = D0047D27205C817C005E9AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0047D25205C817B005E9AEF /* Findbee */,
+				D0047D3C205C817C005E9AEF /* FindbeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0047D24205C817B005E9AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0047D66205CBFC1005E9AEF /* FaricyNew-LightItalic.ttf in Resources */,
+				D0047D56205CBCFF005E9AEF /* Montserrat-Bold.ttf in Resources */,
+				D0047D37205C817C005E9AEF /* LaunchScreen.storyboard in Resources */,
+				D0047D67205CBFC1005E9AEF /* FaricyNew-Medium.ttf in Resources */,
+				D0047D62205CBFC1005E9AEF /* FaricyNew-Bold.ttf in Resources */,
+				D0047D64205CBFC1005E9AEF /* FaricyNew-Italic.ttf in Resources */,
+				D0047D68205CBFC1005E9AEF /* FaricyNew-MediumItalic.ttf in Resources */,
+				D0047D65205CBFC1005E9AEF /* FaricyNew-Light.ttf in Resources */,
+				D0047D34205C817C005E9AEF /* Assets.xcassets in Resources */,
+				D0047D63205CBFC1005E9AEF /* FaricyNew-BoldItalic.ttf in Resources */,
+				D0047D57205CBCFF005E9AEF /* Montserrat-Regular.ttf in Resources */,
+				D0047D69205CBFC1005E9AEF /* FaricyNew-Regular.ttf in Resources */,
+				D0047D2F205C817C005E9AEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0047D3B205C817C005E9AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106CB82F6770E18D01E24364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		164416F0F3F340FD4E9DBF7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindbeeUITests/Pods-FindbeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F1D3BBDA3C642F11935519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Findbee/Pods-Findbee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDA1CE891FA1BDF01449492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C134FE48C851C18D82E0057E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Findbee/Pods-Findbee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D324BA5FFE64DA5494F004AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindbeeUITests/Pods-FindbeeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0047D22205C817B005E9AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0047D2C205C817C005E9AEF /* ViewController.swift in Sources */,
+				D0047D32205C817C005E9AEF /* Findbee.xcdatamodeld in Sources */,
+				D0047D2A205C817C005E9AEF /* AppDelegate.swift in Sources */,
+				D0047D59205CBDF7005E9AEF /* round+UIView.swift in Sources */,
+				D0047D52205CB7A4005E9AEF /* TutorialLocationVC.swift in Sources */,
+				D0047D50205CB743005E9AEF /* TutorialStartVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0047D39205C817C005E9AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0047D42205C817C005E9AEF /* FindbeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0047D3F205C817C005E9AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0047D25205C817B005E9AEF /* Findbee */;
+			targetProxy = D0047D3E205C817C005E9AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0047D2D205C817C005E9AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0047D2E205C817C005E9AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0047D35205C817C005E9AEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0047D36205C817C005E9AEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0047D44205C817C005E9AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0047D45205C817C005E9AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0047D47205C817C005E9AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C602828FED1BFC0DC82DBA0C /* Pods-Findbee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Findbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hakan.Findbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0047D48205C817C005E9AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84394AD8A5433609342B8C96 /* Pods-Findbee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Findbee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hakan.Findbee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0047D4A205C817C005E9AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A803784D214215ABB1D8785F /* Pods-FindbeeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FindbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hakan.FindbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Findbee;
+			};
+			name = Debug;
+		};
+		D0047D4B205C817C005E9AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9AC66E1702A86FF1D273AE /* Pods-FindbeeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FindbeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hakan.FindbeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Findbee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0047D21205C817B005E9AEF /* Build configuration list for PBXProject "Findbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0047D44205C817C005E9AEF /* Debug */,
+				D0047D45205C817C005E9AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0047D46205C817C005E9AEF /* Build configuration list for PBXNativeTarget "Findbee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0047D47205C817C005E9AEF /* Debug */,
+				D0047D48205C817C005E9AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0047D49205C817C005E9AEF /* Build configuration list for PBXNativeTarget "FindbeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0047D4A205C817C005E9AEF /* Debug */,
+				D0047D4B205C817C005E9AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0047D30205C817C005E9AEF /* Findbee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0047D31205C817C005E9AEF /* Findbee.xcdatamodel */,
+			);
+			currentVersion = D0047D31205C817C005E9AEF /* Findbee.xcdatamodel */;
+			path = Findbee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0047D1E205C817B005E9AEF /* Project object */;
+}

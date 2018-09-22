@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X3I-Ym-OqI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FaricyNew-Light.ttf">
+            <string>FaricyNew-Light</string>
+        </array>
+        <array key="FaricyNew-Medium.ttf">
+            <string>FaricyNew-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Dk4-aP-mNv">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="X3I-Ym-OqI" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qwj-FI-FgG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HgO-ra-GXp" kind="relationship" relationship="rootViewController" id="qDi-A5-UWF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6b-bc-En7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778" y="143"/>
+        </scene>
+        <!--Tutorial StartVC-->
+        <scene sceneID="Yqj-LL-jg4">
+            <objects>
+                <viewController storyboardIdentifier="TutorialStartVC" id="HgO-ra-GXp" customClass="TutorialStartVC" customModule="Findbee" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lzo-aO-4hX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uzm-cT-1aC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hwf-eA-b8l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_bg_one" translatesAutoresizingMaskIntoConstraints="NO" id="mxT-Yg-wNA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By clicking “Next” you agree to privacy and data sharing policy." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MF-y1-NPP">
+                                <rect key="frame" x="25" y="624" width="325" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="12.5" id="PEp-gL-0sD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                                <color key="textColor" red="0.69411764705882351" green="0.69411764705882351" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4U-ku-df6">
+                                <rect key="frame" x="29" y="532" width="317" height="52"/>
+                                <color key="backgroundColor" red="1" green="0.90588235294117647" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="jXa-3T-egU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="18"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can learn the location of people you know by numbers. Keep your friends informed and share your location too." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHL-f7-mz3">
+                                <rect key="frame" x="29" y="460" width="317" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="eaB-a6-1HZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn location of your friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2j-eI-Qgx">
+                                <rect key="frame" x="63" y="421" width="249" height="19"/>
+                                <fontDescription key="fontDescription" name="FaricyNew-Medium" family="FaricyNew-Medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g4U-ku-df6" firstAttribute="top" secondItem="dHL-f7-mz3" secondAttribute="bottom" constant="21" id="6ow-vo-chm"/>
+                            <constraint firstItem="dHL-f7-mz3" firstAttribute="top" secondItem="b2j-eI-Qgx" secondAttribute="bottom" constant="20" id="78z-op-LsY"/>
+                            <constraint firstItem="g4U-ku-df6" firstAttribute="leading" secondItem="Hwf-eA-b8l" secondAttribute="leadingMargin" constant="13" id="8ds-1g-W14"/>
+                            <constraint firstItem="b2j-eI-Qgx" firstAttribute="centerX" secondItem="Hwf-eA-b8l" secondAttribute="centerX" id="8tQ-Ry-fRa"/>
+                            <constraint firstItem="dHL-f7-mz3" firstAttribute="leading" secondItem="Hwf-eA-b8l" secondAttribute="leadingMargin" constant="13" id="TpJ-ZK-dSu"/>
+                            <constraint firstItem="5MF-y1-NPP" firstAttribute="top" secondItem="g4U-ku-df6" secondAttribute="bottom" constant="40" id="UNI-Xn-hIO"/>
+                            <constraint firstItem="mxT-Yg-wNA" firstAttribute="leading" secondItem="Hwf-eA-b8l" secondAttribute="leading" id="Yx2-2Y-sQY"/>
+                            <constraint firstItem="Uzm-cT-1aC" firstAttribute="top" secondItem="5MF-y1-NPP" secondAttribute="bottom" constant="30" id="ZE6-na-mlQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5MF-y1-NPP" secondAttribute="trailing" constant="9" id="geO-tM-dIl"/>
+                            <constraint firstItem="Uzm-cT-1aC" firstAttribute="top" secondItem="mxT-Yg-wNA" secondAttribute="bottom" id="gxZ-Q8-Qbu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g4U-ku-df6" secondAttribute="trailing" constant="13" id="ldM-3O-p57"/>
+                            <constraint firstAttribute="trailing" secondItem="mxT-Yg-wNA" secondAttribute="trailing" id="mMz-h4-tKH"/>
+                            <constraint firstItem="5MF-y1-NPP" firstAttribute="leading" secondItem="Hwf-eA-b8l" secondAttribute="leadingMargin" constant="9" id="tdV-lB-4TS"/>
+                            <constraint firstItem="mxT-Yg-wNA" firstAttribute="top" secondItem="Hwf-eA-b8l" secondAttribute="top" id="ucN-3h-Pht"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dHL-f7-mz3" secondAttribute="trailing" constant="13" id="w9r-xA-XTT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HSx-WG-VMh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="noq-kR-AcD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.80000000000001" y="142.57871064467767"/>
+        </scene>
+        <!--Tutorial LocationVC-->
+        <scene sceneID="uPD-kY-8JZ">
+            <objects>
+                <viewController storyboardIdentifier="TutorialLocationVC" id="oxF-hS-jUu" customClass="TutorialLocationVC" customModule="Findbee" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pvg-S4-dkb"/>
+                        <viewControllerLayoutGuide type="bottom" id="hZN-sq-18R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3AE-ry-eev">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJA-T5-F3T">
+                                <rect key="frame" x="149" y="584" width="77" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="ohK-ky-wtV"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Later">
+                                            <attributes>
+                                                <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnh-5o-gkc">
+                                <rect key="frame" x="29" y="517" width="317" height="52"/>
+                                <color key="backgroundColor" red="1" green="0.90588235289999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Yl7-J8-cYx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="18"/>
+                                <state key="normal" title="Find My Contacts">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start with following Follow Circle users on your contact list." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx2-l6-HxL">
+                                <rect key="frame" x="29" y="455" width="317" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="q1v-ED-foL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is There?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPG-5K-f69">
+                                <rect key="frame" x="128.5" y="416" width="118" height="19"/>
+                                <fontDescription key="fontDescription" name="FaricyNew-Medium" family="FaricyNew-Medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_two_people" translatesAutoresizingMaskIntoConstraints="NO" id="tLI-c0-ISI">
+                                <rect key="frame" x="7" y="49.5" width="361" height="326.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tLI-c0-ISI" secondAttribute="height" multiplier="361:327" id="Smt-FS-mdB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XJA-T5-F3T" firstAttribute="top" secondItem="Wnh-5o-gkc" secondAttribute="bottom" constant="15" id="24R-JF-65p"/>
+                            <constraint firstItem="XJA-T5-F3T" firstAttribute="centerX" secondItem="3AE-ry-eev" secondAttribute="centerX" id="8k8-hJ-Wgf"/>
+                            <constraint firstItem="kPG-5K-f69" firstAttribute="top" secondItem="tLI-c0-ISI" secondAttribute="bottom" constant="40" id="D56-bx-zYc"/>
+                            <constraint firstItem="tLI-c0-ISI" firstAttribute="leading" secondItem="3AE-ry-eev" secondAttribute="leading" constant="7" id="J50-Pj-pwl"/>
+                            <constraint firstAttribute="trailing" secondItem="tLI-c0-ISI" secondAttribute="trailing" constant="7" id="ObG-k5-L2h"/>
+                            <constraint firstItem="hZN-sq-18R" firstAttribute="top" secondItem="XJA-T5-F3T" secondAttribute="bottom" constant="51" id="Roy-5S-aH7"/>
+                            <constraint firstItem="Wnh-5o-gkc" firstAttribute="top" secondItem="zx2-l6-HxL" secondAttribute="bottom" constant="28.5" id="YCj-1X-SBu"/>
+                            <constraint firstItem="zx2-l6-HxL" firstAttribute="top" secondItem="kPG-5K-f69" secondAttribute="bottom" constant="20" id="i65-44-UDr"/>
+                            <constraint firstItem="zx2-l6-HxL" firstAttribute="leading" secondItem="3AE-ry-eev" secondAttribute="leadingMargin" constant="13" id="k9p-H7-Zon"/>
+                            <constraint firstItem="Wnh-5o-gkc" firstAttribute="leading" secondItem="3AE-ry-eev" secondAttribute="leadingMargin" constant="13" id="kXh-Bi-Ktt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zx2-l6-HxL" secondAttribute="trailing" constant="13" id="nix-Z5-03D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wnh-5o-gkc" secondAttribute="trailing" constant="13" id="wwt-Mx-7A8"/>
+                            <constraint firstItem="kPG-5K-f69" firstAttribute="centerX" secondItem="3AE-ry-eev" secondAttribute="centerX" id="zxd-Lf-CHy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ibp-FH-lk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1365.5999999999999" y="-424.13793103448279"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HQD-p3-3x9">
+            <objects>
+                <viewController id="Hox-oU-DZ5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fy7-9e-8rb"/>
+                        <viewControllerLayoutGuide type="bottom" id="TWk-pn-JEl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pQm-r0-ulI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Aq0-6u-FeD">
+                                <rect key="frame" x="102" y="69" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Aq0-6u-FeD" secondAttribute="height" multiplier="1:1" id="P1i-Xm-hN6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please make a profile now." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAv-RX-af0">
+                                <rect key="frame" x="87.5" y="249" width="200" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="p0A-wO-6bg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQO-wn-MQ0">
+                                <rect key="frame" x="29" y="296" width="317" height="52"/>
+                                <color key="backgroundColor" red="1" green="0.90588235289999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Ral-KJ-KyP"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="52" id="T31-uu-SeL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FaricyNew-Light" family="FaricyNew-Light" pointSize="18"/>
+                                <state key="normal" title="Create a Profile">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sQO-wn-MQ0" firstAttribute="leading" secondItem="pQm-r0-ulI" secondAttribute="leadingMargin" constant="13" id="1LY-7o-sPJ"/>
+                            <constraint firstItem="FAv-RX-af0" firstAttribute="centerX" secondItem="pQm-r0-ulI" secondAttribute="centerX" id="3Ta-x1-8Ee"/>
+                            <constraint firstItem="sQO-wn-MQ0" firstAttribute="top" secondItem="FAv-RX-af0" secondAttribute="bottom" constant="30" id="FLO-Jx-JUb"/>
+                            <constraint firstItem="Aq0-6u-FeD" firstAttribute="width" secondItem="pQm-r0-ulI" secondAttribute="width" multiplier="0.452" id="RRe-0Y-vNz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sQO-wn-MQ0" secondAttribute="trailing" constant="13" id="Zye-h3-SBe"/>
+                            <constraint firstItem="Aq0-6u-FeD" firstAttribute="centerX" secondItem="pQm-r0-ulI" secondAttribute="centerX" id="edc-mQ-F2r"/>
+                            <constraint firstItem="FAv-RX-af0" firstAttribute="top" secondItem="Aq0-6u-FeD" secondAttribute="bottom" constant="10" id="fFi-dY-yLt"/>
+                            <constraint firstItem="Aq0-6u-FeD" firstAttribute="top" secondItem="pQm-r0-ulI" secondAttribute="topMargin" constant="69" id="loP-L8-Rld"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYJ-rK-lBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2288.8000000000002" y="-424.13793103448279"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="profile_logo" width="147" height="147"/>
+        <image name="tutorial_bg_one" width="375" height="667"/>
+        <image name="tutorial_two_people" width="314" height="268"/>
+    </resources>
+</document>
